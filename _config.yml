@@ -19,7 +19,7 @@ locale                   : "South Korea"
 title                    : "re_Push's blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Kang,Jaemin"
+name                     : "Kang, Jaemin"
 description              : "👋 Hi, I’m @re-Push 🌱 I’m currently learning Python, Web development, and Linux"
 url                      : "https://re-Push.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -102,7 +102,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Kang,Jaemin"
+  name             : "Kang, Jaemin"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "👋 Hi, I’m @re-Push 🌱 I’m currently learning Python, Web development and Linux"
   location         : "South Korea"
