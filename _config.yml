@@ -20,7 +20,12 @@ title                    : "re_Push's blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Kang, Jaemin"
-description              : ""
+description              : "👋 Hi, I’m @re-Push
+👀 I’m interested in League of Legends and TFT
+🌱 I’m currently learning Python, Web development, and Linux because I am going to take lesson about web cloud service soon
+💞️ I’m looking to collaborate on anyone like beginer or senior. I'm trying to practice my cording skill
+📫 How to reach me ... you can send me DM like instagram or kakao.
+here's my adress. Instagram[re_Push__], kakao[rkd9312], E-mail adress[cang9312@naver.com]"
 url                      : "https://re-Push.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
