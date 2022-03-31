@@ -9,7 +9,8 @@ author_profile: true
   </span>
 {% endfor %}
 
-$("[data-tag]").click((e) => {
+<script>
+   $("[data-tag]").click((e) => {
   currentTag = e.target.dataset.tag;
   filterByTagName(currentTag);
 })
@@ -35,3 +36,6 @@ $(document).ready(function() {
 });
 
 function getQuery() { ... }
+</script>
+
+
