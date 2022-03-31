@@ -38,3 +38,9 @@ layout: archive
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
   </section>
 {% endfor %}
+
+
+function updateQueryString(tagName) {
+  const path = `${location.protocol}//${location.host}${location.pathname}?tag=${tagName}`;
+  window.history.replaceState({ path }, '', path);
+}
