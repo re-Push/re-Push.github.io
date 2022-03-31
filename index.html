@@ -2,10 +2,9 @@
 layout: home
 author_profile: true
 ---
-  
 
+<html>
 
-<script>
   {% for tag in site.data.tags %}
   <span class="tag" data-tag="{{tag}}">
     {{ site.data.format[tag] }}
@@ -25,7 +24,9 @@ author_profile: true
     </article>
   </div>
 {% endfor %}
-  
+
+<script>
+
    $("[data-tag]").click((e) => {
   currentTag = e.target.dataset.tag;
   filterByTagName(currentTag);
@@ -60,4 +61,4 @@ function updateQueryString(tagName) {
 
 </script>
 
-
+</html>
