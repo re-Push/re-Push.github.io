@@ -15,12 +15,14 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
+published: true
+futrue: true
 locale                   : "South Korea"
 title                    : "re_Push's blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Kang, Jaemin"
-description              : "👋 Hi, I’m @re-Push 🌱 I’m currently learning Python, Web development, and Linux"
+description              : "🌱 current learning is AWS"
 url                      : "https://re-Push.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
