@@ -52,6 +52,12 @@ $(document).ready(function() {
 });
 
 function getQuery() { ... }
+
+function updateQueryString(tagName) {
+  const path = `${location.protocol}//${location.host}${location.pathname}?tag=${tagName}`;
+  window.history.replaceState({ path }, '', path);
+}
+
 </script>
 
 
